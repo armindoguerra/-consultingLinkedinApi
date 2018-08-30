@@ -47,7 +47,7 @@ def auth_my_app():
 
 def linkedin_companies_parser(url):
 
-	# Montando a requisição para a API Dialogflow
+	# Montando a requisição para a API do Linkedin
 
 	r = request.get_json(url, headers={'Authorization': auth_my_app()})
 
@@ -78,7 +78,7 @@ def linkedin_companies_parser(url):
  
 def consult_api():
     
-	# Configurar a lista de empresas que serão pesquisadas na API
+	# Recebendo os dados das empresas que estão no arquivo csv
 
     df = pd.read_csv('listaEmpresas.csv')
 
