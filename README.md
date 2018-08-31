@@ -19,8 +19,7 @@ Para iniciar a aplicação, basta executar:
  ```
  $ python test.py
  ```
-
-
+Um arquivo `data.json` será gerado com o resultado no mesmo diretório em que os códigos fontes estão.
 
 
 
