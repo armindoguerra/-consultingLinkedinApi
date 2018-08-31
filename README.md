@@ -13,7 +13,7 @@ Essa aplicação tem como objetivo consultar informações de empresas na API of
 
 Para maiores informações sobre a API acesse: https://developer.linkedin.com/docs/guide/v2/organizations/organization-lookup-api
 
-Os nomes das empresas a serem consultados podem ser inseridas no arquivo que executa a aplicação (`test.py`). O projeto exige poucas dependências, além do Python 3, são necessários os pacotes `requests` e `json`
+Os nomes das empresas a serem consultadas podem ser inseridos no arquivo que executa a aplicação (`test.py`). O projeto exige poucas dependências, além do Python 3, são necessários os pacotes `requests` e `json`
 
 Para iniciar a aplicação, basta executar:
  ```
