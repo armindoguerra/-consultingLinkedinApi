@@ -15,6 +15,9 @@ class App(object):
 
 		r = request.get_json(url, headers={'Authorization': access_token})
 
+		
+		# Fazendo parcing das do arquivo json recebido 
+
 		entityStatus = r["entityStatus"]
 		vanityName = r["vanityName"]	
 		id1 = r["id"]
@@ -24,6 +27,7 @@ class App(object):
 		specialties = r["specialties"]
 		staffCountRange = r["staffCountRange"]
 
+		# Montando arquivo json para resposta
 
 		data = {
 		    "entityStatus":entityStatus,
@@ -42,7 +46,7 @@ class App(object):
 	 
 	def consult_api(self, *lista):
 	    
-		# Recebendo os dados das empresas que estão no arquivo csv
+		# Recebendo os dados das empresas e consultando a API
 
 	    company_list = lista
 	    
