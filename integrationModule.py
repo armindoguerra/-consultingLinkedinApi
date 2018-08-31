@@ -3,6 +3,10 @@
 import pandas as pd
 import json
 import requests
+import getAccessToken
+
+auth = AuthenticationApi()
+access_token = auth.oath2()
 
 class App(object):
 
