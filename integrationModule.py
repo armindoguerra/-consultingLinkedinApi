@@ -6,7 +6,7 @@ import requests
 import getAccessToken
 
 auth = AuthenticationApi()
-access_token = auth.oath2()
+access_token = auth.oauth2()
 
 class App(object):
 
