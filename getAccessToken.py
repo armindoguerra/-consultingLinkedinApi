@@ -1,6 +1,13 @@
 import requests
 import json
 
+"""
+As informações redirect_uri, client_id e client_secret são obtidas ao criar uma aplicação na plataforma do 
+Linkedin em https://www.linkedin.com/secure/developer?newapp=
+
+A variável code é obtida configurando a autenticação oauth2. https://developer.linkedin.com/docs/oauth2
+"""
+
 url = "https://www.linkedin.com/oauth/v2/accessToken"
 
 code = "..."
