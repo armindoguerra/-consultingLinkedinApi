@@ -1,6 +1,6 @@
-# Linkedin Organizations App
+# Consulta a Lookup API do Linkedin v2
 
-Essa aplicação recebe de um arquivo csv com uma lista de nomes de empresas e retorna um arquivo json com os seguintes dados: 
+Essa aplicação tem como objetivo consultar informações de empresas na API oferecida pela Linkedin. As seguintes informções serão consultadas:
 
     • entityStatus;
     • vanityName;
@@ -11,19 +11,13 @@ Essa aplicação recebe de um arquivo csv com uma lista de nomes de empresas e r
     • specialties;
     • staffCountRange;
 
-Foi utilizada a Organization Lookup API do Linkedin v2 (https://developer.linkedin.com/docs/guide/v2/organizations/organization-lookup-api) 
+Para maiores informações sobre a API acesse: https://developer.linkedin.com/docs/guide/v2/organizations/organization-lookup-api
 
-Para executar a aplicação é necessário ter alguns pacotes instalados. 
-
-```
-$ pip install -r requirements.txt
-```
-
-Após a instalação dos pacotes, basta salvar o arquivo csv no mesmo diretório em qua está o código fonte da aplicação `app.py`.
+Para executar a aplicação é preciso Python 3 e os pacotes `requests` e `json`
 
 Para iniciar a aplicação, basta executar:
  ```
- $ python app.py
+ $ python test.py
  ```
 
 
