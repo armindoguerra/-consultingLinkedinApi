@@ -17,7 +17,7 @@ class App(object):
 
 		# Montando a requisição para a API do Linkedin
 
-		r = request.get_json(url, headers={'Authorization': access_token})
+		r = requests.get(url, headers={'Authorization': access_token})
 
 		
 		# Fazendo parcing das do arquivo json recebido 
